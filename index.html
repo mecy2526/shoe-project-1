@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+        <div id="product">
+            <div id="left">
+                <img id="image" src="shoe.png" alt="">
+            </div>
+            <div id="right">
+                <span id="text1">AIRMAX</span>
+                <span id="text2">winter collections</span>
+                <span id="text3">Men Black Sneakers</span>
+                <span id="number1"><b>150</b></span>
+                <span id="number2" ><strike>200</strike></span>
+                <div id="size">
+                    <span>size</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span>
+                </div>
+                <div id="buy">
+                    <span>Buy Now</span> <span>Add To Cart</span>
+                </div>
+
+                <div id="buttons">
+                    <span>colour</span>
+                    <button style="height: 20px; width: 20px; border-radius: 20px; background-color: yellow;"></button>
+                    <button style="height: 20px; width: 20px; border-radius: 20px; background-color: rgb(247, 0, 255);"></button>
+                    <button style="height: 20px; width: 20px; border-radius: 20px; background-color: rgb(255, 51, 0);"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <style>
+        #body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #root{
+            height: 600px;
+            width: 800px;
+            border: 3px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url("bg\ \(1\).png");
+        }
+        #product{
+            height: 500px;
+            width: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #left{
+            height: 500px;
+            width: 380px;
+            border-radius: 0px 50% 50% 0px;
+            background-color: orangered;
+        }
+        #right{
+            height: 500px;
+            width: 350px;
+            color: white;
+        }
+        #image{
+            position: relative;
+            top: 100px;
+            left: -40px;
+        }
+        #text1{
+            position: relative;
+            top: 20px;
+            left: 20px;
+            color: orangered;
+
+        }
+        #text2{
+            position: relative;
+            top: 200px;
+            left: -50px;
+            font-size: 20px;
+            font-family: fantasy;
+        }
+        #text3{
+            position: relative;
+            top:200px;
+            left: -20px;
+            font-size:30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #buttons{
+            position: relative;
+            top: 220px;
+            left: 20px;
+            display: flex;
+            gap: 30px;
+
+        }
+        #number1{
+            position: relative;
+            top: 210px;
+            left: 20px;
+            font-size: 20px;
+        }
+        #number2{
+            position: relative;
+            top: 210px;
+            left: 40px;
+
+        }
+        #size{
+            position: relative;
+            top: 220px;
+            left: 20px;
+            display: flex;
+            gap: 30px;
+        }
+        #buy{
+            position: relative;
+            top: 280px;
+            left: 20px;
+            display: flex;
+            gap: 40px;
+        }
+
+        
+        
+
+     </style>    
+</body>
+</html>
